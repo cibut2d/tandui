@@ -7,6 +7,7 @@
 # //  telegram: https://t.me/Cibut2d
 # //====================================================
 # // font color configuration | JULAK BANTUR AUTOSCRIPT
+julak="raw.githubusercontent.com/cibut2d/tantui"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
