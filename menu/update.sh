@@ -145,7 +145,7 @@ rm -rf onof
 rm -rf lock-vmess
 rm -rf xraylock
 
-cd /usr/bin
+cd /usr/local/sbin
 wget -O update "https://${julak}/main/menu/update.sh"
 wget -O menu "https://${julak}/main/menu/menu.sh"
 wget -O m-bot "https://${julak}/main/menu/m-bot.sh"
@@ -173,17 +173,14 @@ wget -O xp "https://${julak}/main/ssh/xp.sh"
 wget -O acs-set "https://${julak}/main/acs-set.sh"
 wget -O sshws "https://${julak}/main/ssh/sshws.sh"
 wget -O status "https://${julak}/main/status.sh"
+wget -O menu-bckp "https://${julak}/main/menu/menu-bckp.sh"
 wget -O menu-backup "https://${julak}/main/menu/menu-backup.sh"
 wget -O backup "https://${julak}/main/backup/backup.sh"
 wget -O restore "https://${julak}/main/backup/restore.sh"
 wget -O jam "https://${julak}/main/jam.sh"
-wget -O cf "https://${julak}/main/ssh/cf.sh"
-wget -O menu-bckp "https://${julak}/main/menu/menu-bckp.sh"
-wget -O add-ns "https://${julak}/main/ssh/add-ns.sh"
-wget -O issue "https://${julak}/main/ssh/julak.txt"
+wget -O add-vms "https://${julak}/main/xray/add-vms.sh"
 wget -O add-tru "https://${julak}/main/xray/add-tru.sh"
 wget -O add-vls "https://${julak}/main/xray/add-vls.sh"
-wget -O add-vms "https://${julak}/main/xray/add-vms.sh"
 wget -O menu-theme "https://${julak}/main/menu/menu-theme.sh"
 wget -O limsh "https://${julak}/main/xray/limsh.sh"
 wget -O limws "https://${julak}/main/xray/limws.sh"
@@ -197,6 +194,9 @@ wget -O unlock "https://${julak}/main/ssh/unlock.sh"
 wget -O onof "https://${julak}/main/xray/onof.sh"
 wget -O lock-vmess "https://${julak}/main/xray/lock-vmess.sh"
 wget -O xraylock "https://${julak}/main/xray/xraylock.sh"
+wget -O cibut-on "https://${julak}/main/xray/cibut-on.sh"
+wget -O limitssh-ip "https://${julak}/main/xray/limitssh-ip.sh"
+wget -O lock-xray-ip "https://${julak}/main/xray/lock-xray-ip.sh"
 
 chmod +x update
 chmod +x m-ip
