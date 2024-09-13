@@ -35,8 +35,8 @@ c="\033[5;33m"
 ###########- END COLOR CODE -##########
 
 # // Gettings Info
-ISP=$(cat /etc/xray/isp)
-CITY=$(cat /etc/xray/city)
+ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
+CITY=$(curl -s ipinfo.io/city )
 IPVPS=$(curl -s ipv4.icanhazip.com)
 domain=$(cat /etc/xray/domain)
 #ns=$(cat /etc/xray/dns)
