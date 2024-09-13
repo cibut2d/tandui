@@ -144,6 +144,9 @@ rm -rf unlock
 rm -rf onof
 rm -rf lock-vmess
 rm -rf xraylock
+rm -rf cibut-on
+rm -rf limitssh-ip
+rm -rf lock-xray-ip
 
 cd /usr/local/sbin
 wget -O update "https://${julak}/main/menu/update.sh"
@@ -199,9 +202,9 @@ wget -O limitssh-ip "https://${julak}/main/xray/limitssh-ip.sh"
 wget -O lock-xray-ip "https://${julak}/main/xray/lock-xray-ip.sh"
 
 chmod +x update
-chmod +x m-ip
 chmod +x menu
 chmod +x m-bot
+chmod +x m-ip
 chmod +x menu-vmess
 chmod +x menu-vless
 chmod +x running
@@ -225,17 +228,14 @@ chmod +x xp
 chmod +x acs-set
 chmod +x sshws
 chmod +x status
+chmod +x menu-bckp
 chmod +x menu-backup
 chmod +x backup
 chmod +x restore
 chmod +x jam
-chmod +x cf
-chmod +x menu-bckp
-chmod +x add-ns
-chmod +x issue
+chmod +x add-vms
 chmod +x add-tru
 chmod +x add-vls
-chmod +x add-vms
 chmod +x menu-theme
 chmod +x limsh
 chmod +x limws
@@ -249,7 +249,9 @@ chmod +x unlock
 chmod +x onof
 chmod +x lock-vmess
 chmod +x xraylock
-
+chmod +x cibut-on
+chmod +x limitssh-ip
+chmod +x lock-xray-ip
 clear
 echo -e ""
 echo -e "\e[0;32mOhhhh yes, Ohhh No\e[0m"
