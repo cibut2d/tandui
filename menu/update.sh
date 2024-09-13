@@ -132,6 +132,18 @@ rm -rf add-tru
 rm -rf add-vls
 rm -rf add-vms
 rm -rf menu-theme
+rm -rf limsh
+rm -rf limws
+rm -rf limvls
+rm -rf limtr
+rm -rf qvms
+rm -rf qvls
+rm -rf qtru
+rm -rf lock
+rm -rf unlock
+rm -rf onof
+rm -rf lock-vmess
+rm -rf xraylock
 
 cd /usr/bin
 wget -O update "https://${julak}/main/menu/update.sh"
@@ -173,6 +185,18 @@ wget -O add-tru "https://${julak}/main/xray/add-tru.sh"
 wget -O add-vls "https://${julak}/main/xray/add-vls.sh"
 wget -O add-vms "https://${julak}/main/xray/add-vms.sh"
 wget -O menu-theme "https://${julak}/main/menu/menu-theme.sh"
+wget -O limsh "https://${julak}/main/xray/limsh.sh"
+wget -O limws "https://${julak}/main/xray/limws.sh"
+wget -O limvls "https://${julak}/main/xray/limvls.sh"
+wget -O limtr "https://${julak}/main/xray/limtr.sh"
+wget -O qvms "https://${julak}/main/xray/qvms.sh"
+wget -O qvls "https://${julak}/main/xray/qvls.sh"
+wget -O qtru "https://${julak}/main/xray/qtru.sh"
+wget -O lock "https://${julak}/main/ssh/lock.sh"
+wget -O unlock "https://${julak}/main/ssh/unlock.sh"
+wget -O onof "https://${julak}/main/xray/onof.sh"
+wget -O lock-vmess "https://${julak}/main/xray/lock-vmess.sh"
+wget -O xraylock "https://${julak}/main/xray/xraylock.sh"
 
 chmod +x update
 chmod +x m-ip
@@ -213,6 +237,18 @@ chmod +x add-tru
 chmod +x add-vls
 chmod +x add-vms
 chmod +x menu-theme
+chmod +x limsh
+chmod +x limws
+chmod +x limvls
+chmod +x limtr
+chmod +x qvms
+chmod +x qvls
+chmod +x qtru
+chmod +x lock
+chmod +x unlock
+chmod +x onof
+chmod +x lock-vmess
+chmod +x xraylock
 
 clear
 echo -e ""
