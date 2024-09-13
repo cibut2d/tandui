@@ -96,7 +96,6 @@ sts="${Info}"
 else
 sts="${Error}"
 fi
-echo -e "\e[32mloading...\e[0m"
 clear
 
 # // GETTINGS SYSTEM
