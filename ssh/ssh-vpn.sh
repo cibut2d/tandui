@@ -335,7 +335,6 @@ wget -O xraylock "https://${julak}/main/xray/xraylock.sh"
 wget -O cibut-on "https://${julak}/main/xray/cibut-on.sh"
 wget -O limitssh-ip "https://${julak}/main/xray/limitssh-ip.sh"
 wget -O lock-xray-ip "https://${julak}/main/xray/lock-xray-ip.sh"
-wget -O certv2ray "https://${julak}/main/xray/certv2ray.sh"
 chmod +x update
 chmod +x menu
 chmod +x m-bot
@@ -387,7 +386,6 @@ chmod +x xraylock
 chmod +x cibut-on
 chmod +x limitssh-ip
 chmod +x lock-xray-ip
-chmod +x certv2ray
 cd
 
 
@@ -400,7 +398,7 @@ END
 cat > /etc/cron.d/xp_otm <<-END
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-0 0 * * * root /usr/local/sbin/xp
+0 0 * * * root /usr/bin/xp
 END
 
 cat > /home/re_otm <<-END
