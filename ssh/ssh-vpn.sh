@@ -332,6 +332,9 @@ wget -O unlock "https://${julak}/main/ssh/unlock.sh"
 wget -O onof "https://${julak}/main/xray/onof.sh"
 wget -O lock-vmess "https://${julak}/main/xray/lock-vmess.sh"
 wget -O xraylock "https://${julak}/main/xray/xraylock.sh"
+wget -O cibut-on "https://${julak}/main/xray/cibut-on.sh"
+wget -O limitssh-ip "https://${julak}/main/xray/limitssh-ip.sh"
+wget -O lock-xray-ip "https://${julak}/main/xray/lock-xray-ip.sh"
 chmod +x update
 chmod +x menu
 chmod +x m-bot
@@ -380,6 +383,9 @@ chmod +x unlock
 chmod +x onof
 chmod +x lock-vmess
 chmod +x xraylock
+chmod +x cibut-on
+chmod +x limitssh-ip
+chmod +x lock-xray-ip
 cd
 
 
@@ -392,7 +398,7 @@ END
 cat > /etc/cron.d/xp_otm <<-END
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-0 0 * * * root /usr/bin/xp
+0 0 * * * root /usr/local/sbin/xp
 END
 
 cat > /home/re_otm <<-END
