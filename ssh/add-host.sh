@@ -48,7 +48,7 @@ clear
 echo -e "\033[0;33m   ┌──────────────────────────────────────────┐\033[0m"
 echo -e "\033[0;33m   │\033[0m            \033[0;32mCHANGE DOMAIN VPS\033[0m             \033[0;33m|\033[0m"
 echo -e "\033[0;33m   └──────────────────────────────────────────┘\033[0m"
-echo -e "     ${RED}Autoscript Tarap Kuhing Tunneling (multi port)${NC}"
+echo -e "     ${RED}Autoscript Julak Bantur Tuneling (multi port)${NC}"
 echo -e "${RED}Make sure the internet is smooth when installing the script${NC}"
 echo -e "───────────────────────────────────────────────────────"
 echo -e ""
@@ -58,6 +58,7 @@ echo -e "       ${GREEN}Total RAM${NC}   :  $totalram MB"
 echo -e ""
 echo -e "───────────────────────────────────────────────────────"
 read -rp "Input ur Domain/Host : " -e bukit
+rm -rf /root/domain
 rm -rf /etc/xray/domain
 rm -rf /etc/v2ray/domain
 rm -rf /etc/xray/scdomain
